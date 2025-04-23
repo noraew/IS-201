@@ -1,0 +1,155 @@
+body {
+    background-color: #f8e8f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2f2f2f;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+nav {
+    background-color: #51a9f1;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2f2f2f;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #f07ed0; /* Color for the background */
+    border: 3px solid #2f2f2f; /* Border color */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #f07ed0; /* Color for the background */
+    border: 3px solid #2f2f2f; /* Border color */
+}
+
+.list-section {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-section ol {
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.list-section li {
+    margin: 1rem 0;
+}
+
+.list-section ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.list-section ul li {
+    margin-bottom: 1rem;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-img {
+    width: 70%;
+    max-width: 800px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anchor-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #1280f5;
+}
+
+.anchor-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #cddbe0;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.tableau-section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tableauPlaceholder {
+    width: 100%; /* The placeholder should take the full width of its container */
+    height: 100%; /* Let the height adjust dynamically */
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; /* Hide any overflow from the graph */
+}
+
+.tableauPlaceholder object {
+    width: 100%; /* Ensure the embedded object takes up 100% of the container width */
+    height: 100%; /* Ensure the embedded object takes up 100% of the container height */
+    border: none;
+}

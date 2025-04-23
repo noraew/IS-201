@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nora's Scratch Page</title>
+    <link rel="stylesheet" type="text/css" href="css/scratch.css">
+</head>
+
+<body>
+
+    <!-- Navigation back to professional page -->
+    <nav class="nav">
+        <a href="index.html">Home</a>
+    </nav>
+
+    <header>
+        <h1>Nora's Scratch Page</h1>
+        <p>A creative space to showcase my interests!</p>
+    </header>
+
+    <p>Click below to try out my Joke Generator:</p>
+    <a href="webapp.html" target="_blank">Go to Joke Generator!</a>
+
+
+    <a href="#facts" class="anchor-link">Click here to jump to the fun fact!</a>
+
+    <!-- An ordered list with an embedded unordered list -->
+    <section class="section list-section">
+        <h2>3 of My Top Passions</h2>
+        <ol>
+            <li>Fashion
+                <ul>
+                    <li>Running Hello Mod Clothing</li>
+                    <li>Styling</li>
+                    <li>Outfit Planning</li>
+                </ul>
+            </li>
+            <li>Crafting
+                <ul>
+                    <li>Making Charm Necklaces</li>
+                    <li>Scrapbooking</li>
+                    <li>Sewing</li>
+                </ul>
+            </li>
+            <li>Spontaneous Thrills
+                <ul>
+                    <li>Scuba Diving</li>
+                    <li>Wake Surfing</li>
+                    <li>Swimming</li>
+                    <li>Trying New Foods</li>
+                    <li>Traveling</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <!-- Custom image -->
+    <section class="section image-section">
+        <h2>A Favorite Memory</h2>
+        <img src="assets/img/FamilyPicture2023.jpeg" alt="Family Picture 2023" class="custom-img">
+    </section>
+
+    <!-- Embedded YouTube video -->
+    <section class="section video-section">
+        <h2>Favorite Music Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6stlCkUDG_s?list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- On-page anchor -->
+    <section class="section anchor-section" id="facts">
+        <h2>Fun Fact</h2>
+        <p>I hate the candy Reeses!</p>
+    </section>
+
+    <!-- Embedded Tableau graph -->
+<!-- Embedded Tableau graph -->
+<section class="tableau-section">
+    <h2>Interactive Tableau Graph</h2>
+    <div class='tableauPlaceholder' id='viz1745371919627'>
+        <noscript>
+            <a href='#'>
+                <img alt='Main Page' src='https://public.tableau.com/static/images/Su/SuperheroesvsSuperheroines/MainPage/1_rss.png' style='border: none;' />
+            </a>
+        </noscript>
+        <object class='tableauViz'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='SuperheroesvsSuperheroines/MainPage' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Su/SuperheroesvsSuperheroines/MainPage/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='_gl=1*wdhy5b*_ga*NjM0Mjc3NDUwLjE3NDIyNjY1Mzc.*_ga_8YLN0SNXVS*MTc0NTM3MTgwNC4zLjEuMTc0NTM3MTg3OC4wLjAuMA..' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1745371919627');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+
+        // Adjust the graph's width and height based on the container size
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%'; // Set to 100% of the container's width
+            vizElement.style.height = '600px'; // Adjust height for larger screens
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%'; // Set to 100% of the container's width
+            vizElement.style.height = '500px'; // Adjust height for medium screens
+        } else {
+            vizElement.style.width = '100%'; // Set to 100% of the container's width for small screens
+            vizElement.style.height = '400px'; // Adjust height for smaller screens
+        }
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</section>
+
+</body>
+
+</html>
+
